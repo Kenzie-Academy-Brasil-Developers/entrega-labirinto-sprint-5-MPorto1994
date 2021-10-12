@@ -15,14 +15,15 @@ main {
     height: 100%;
     align-items: center;
 }
-.wallDiv {
+.cell {
     width: 20px;
-    height: 20px;
+    height: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
     
-}
 .stDiv {
-    width: 20px;
-    height: 20px;
     background-color: red;
 }
 .wallDiv {
@@ -32,6 +33,6 @@ background-color: aqua;
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    color: yellow;
-    z-index: -1;
+    background-color: yellow;
+    /* z-index: -1; */
 }
